@@ -30,9 +30,6 @@ android {
         versionName = flutter.versionName
     }
 
-    dependencies {
-        implementation("androidx.fragment:fragment-ktx:1.6.2")  // ← WAJIB untuk local_auth v3
-    }
 
     buildTypes {
         release {
@@ -45,4 +42,9 @@ android {
 
 flutter {
     source = "../.."
+}
+
+
+dependencies {
+    implementation("androidx.fragment:fragment-ktx:1.6.2")  // ← WAJIB untuk local_auth v3
 }
